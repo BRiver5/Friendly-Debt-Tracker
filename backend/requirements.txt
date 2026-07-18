@@ -1,0 +1,10 @@
+# Minimum versions chosen so prebuilt wheels exist for modern Python (3.13/3.14).
+fastapi>=0.118
+uvicorn[standard]>=0.34
+sqlalchemy>=2.0.36
+pydantic>=2.12
+python-dateutil>=2.9
+
+# Dev / test
+pytest>=8.3
+httpx>=0.28
